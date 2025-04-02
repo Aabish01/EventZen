@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: security
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Aabish_khan410
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/user_registration
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
